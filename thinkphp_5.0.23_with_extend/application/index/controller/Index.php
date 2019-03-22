@@ -7,8 +7,9 @@ class Index
     {
         $res =  "hello word!";
 
-        echo $res;
 
-        
+
+        $data = "对index做出的修改";
+        echo $res.$data;
     }
 }
