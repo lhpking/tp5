@@ -13,7 +13,9 @@ class Login
     {
         $res =  "这是login控制器";
 
-        echo $res;
+        $data = "我对login做出来一些修改";
+
+        echo $res.$data;
 
 
     }
